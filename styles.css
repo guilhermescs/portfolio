@@ -1,0 +1,104 @@
+/*mobile*/
+body {
+    background-image: url(./assets/background2.jpg);
+    font-family: 'Fira Mono';
+    background-color: #282424;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background-size: cover;
+}
+
+.loading-page {
+    margin-top: 40vh;
+}
+
+.loading {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.loading p {
+    margin: 5px;
+}
+.ball {
+    margin: 5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.ball:nth-child(1) {
+    background: #ffffff;
+    -webkit-animation: top 1s infinite ease-in-out;
+    -moz-animation: top 1s infinite ease-in-out;
+    animation: top 1s infinite ease-in-out;
+}
+
+.ball:nth-child(2) {
+    background: #ffffff;
+    -webkit-animation: bottom 1.1s infinite ease-in-out;
+    -moz-animation: bottom 1.1s infinite ease-in-out;
+    animation: bottom 1.1s infinite ease-in-out;
+}
+
+.ball:nth-child(3) {
+    background: #ffffff;
+    -webkit-animation: top 1.05s infinite ease-in-out;
+    -moz-animation: top 1.05s infinite ease-in-out;
+    animation: top 1.05s infinite ease-in-out;
+}
+
+.ball:nth-child(4) {
+    background: #ffffff;
+    -webkit-animation: bottom 1.15s infinite ease-in-out;
+    -moz-animation: bottom 1.15s infinite ease-in-out;
+    animation: bottom 1.15s infinite ease-in-out;
+}
+
+.ball:nth-child(5) {
+    background: #ffffff;
+    -webkit-animation: top 1.1s infinite ease-in-out;
+    -moz-animation: top 1.1s infinite ease-in-out;
+    animation: top 1.1s infinite ease-in-out;
+}
+
+.ball:nth-child(6) {
+    background: #ffffff;
+    -webkit-animation: bottom 1.05s infinite ease-in-out;
+    -moz-animation: bottom 1.05s infinite ease-in-out;
+    animation: bottom 1.05s infinite ease-in-out;
+}
+
+.ball:nth-child(7) {
+    background: #ffffff;
+    -webkit-animation: top 1s infinite ease-in-out;
+    -moz-animation: top 1s infinite ease-in-out;
+    animation: top 1s infinite ease-in-out;
+}
+
+@-webkit-keyframes top {
+    0% {
+        -webkit-transform: translate(-15px);
+    }
+    50% {
+        -webkit-transform: translate(15px);
+    }
+    100% {
+        -webkit-transform: translate(-15px);
+    }
+}
+
+@-webkit-keyframes bottom {
+    0% {
+        -webkit-transform: translate(15px);
+    }
+    50% {
+        -webkit-transform: translate(-15px);
+    }
+    100% {
+        -webkit-transform: translate(15px);
+    }
+}
